@@ -55,7 +55,9 @@ a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  /* text-decoration-color: rgb(181, 181, 181); */
+  text-decoration-color: #FFA800;
+
 }
 
 .logo {
@@ -273,6 +275,11 @@ section {
   margin-top: 2rem;
 }
 
+/* .about-containers {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis 
+} */
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -302,6 +309,16 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+
+/* .details-container {
+  padding: 1rem;
+  flex: 1; /* Each card takes up equal space *
+  margin: 0 0.5rem; /* Add margin between cards 
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+} */
 
 .section-container {
   gap: 4rem;
@@ -362,6 +379,7 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  transition: opacity 0.5s ease-in-out;
 }
 
 .project-img {
@@ -431,8 +449,3 @@ footer p {
   text-align: center;
 }
 
-
-
-
-
-      
